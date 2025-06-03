@@ -32,7 +32,7 @@ A responsive and interactive web platform for collaborative learning and study g
 
 ## 🔗 Live Demo
 
-🌐 [Insert your deployed site link here, e.g. Netlify or GitHub Pages]
+🌐 (https://ayazhan217.github.io/study-platform/)
 
 ---
 
