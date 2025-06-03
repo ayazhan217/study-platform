@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Study Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Study Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="live_sessions.html">Live Sessions</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="log_in.html">Log in</a></li>
+        <li><a href="dashboard.html">User Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About the Platform</h2>
+      <p>This platform provides a collaborative learning environment with resources, live sessions, and study groups.</p>
+    </section>
+
+    <section>
+      <h2>Key Features</h2>
+      <ul>
+        <li>Join or create study groups</li>
+        <li>Access learning materials</li>
+        <li>Attend live study sessions</li>
+        <li>Engage in discussion forums</li>
+        <li>Track your learning history</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <img class="gallery-img" src="images/IMAGE 2025-04-04 10:13:00 AM.jpg" alt="Студенты за учебой" />
+    </section>
+
+    <section>
+      <button id="joinBtn">Join Now</button>
+      <p id="loginStatus"></p>
+
+      <h3>Platform Features:</h3>
+      <ul id="featuresList"></ul>
+
+      <p id="randomNum"></p>
+
+      <button id="toggleBtn">Toggle Gallery</button>
+    </section>
+
+    <section id="tipsSection">
+      <h3>Study Tips</h3>
+      <button id="addItem">Add Tip</button>
+    </section>
+
+    <section>
+      <button id="quoteBtn">Get Study Quote</button>
+      <p id="quoteOutput"></p>
+    </section>
+<!--  Background music -->
+<audio id="backgroundMusic" src="background.mp3" preload="auto" loop></audio>
+
+    <section class="audio-controls">
+      <h3>Background Music</h3>
+      <button id="playBackgroundBtn" class="action-btn">▶ Play Music</button>
+      <button id="pauseBackgroundBtn" class="action-btn">⏸ Pause</button>
+      <button id="volumeUpBtn" class="action-btn">🔊 +</button>
+      <button id="volumeDownBtn" class="action-btn">🔉 -</button>
+      <span id="volumeDisplay">Volume: 50%</span>
+    </section>
+
+   
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Study Platform. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+  <script src="script.js"></script>
+  
+
+</body>
+</html>
